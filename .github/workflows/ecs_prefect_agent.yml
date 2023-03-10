@@ -18,7 +18,7 @@ on:
       s3_path:
         description: S3 path in the format bucket/path
         required: true
-        default: 'prefect-orion/prod'
+        default: 'datadrivers-noah-test/prod'
       block_name:
         description: Name of the S3 and ECS blocks
         required: true
@@ -31,7 +31,7 @@ on:
       aws-region:
         description: AWS Region
         required: true
-        default: 'us-east-1'
+        default: 'eu-central-1'
         type: string
 
 env:
