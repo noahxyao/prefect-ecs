@@ -6,7 +6,7 @@ on:
       aws-region:
         description: AWS Region
         required: true
-        default: 'us-east-1'
+        default: 'eu-central-1'
         type: string
 env:
   PROJECT: dataflowops
