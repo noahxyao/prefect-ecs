@@ -1,7 +1,7 @@
 import platform
 import prefect
 from prefect import task, flow, get_run_logger
-from prefect.orion.api.server import ORION_API_VERSION
+from prefect.server.api.server import ORION_API_VERSION
 import sys
 
 
